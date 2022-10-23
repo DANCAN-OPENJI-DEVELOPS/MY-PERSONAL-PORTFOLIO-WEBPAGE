@@ -130,19 +130,25 @@ nav a:hover {
 }
 
 #skills .skills-h2 {
-  margin: 0px auto 10vw auto;
+  /*margin: 0px auto 10vw auto;*/
+  margin: auto;
+  padding: 0px auto 10vw auto;
   text-align: center;
   padding-top: 40px;
 }
 
 #skills .skills-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 100px;
+  display: grid;
+  /*grid-column: 1fr 1fr 1fr;*/
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  place-items: center;
+  gap: 4rem;
+  /*justify-content: center;
+  gap: 100px;*/
   margin: auto;
   flex-wrap: wrap;
-  padding-bottom: 15vw;
+  padding: 8vw 0;
   animation: Anime 8s linear infinite;
   transition: 2s linear 2s;
 }
@@ -338,14 +344,18 @@ nav a:hover {
   #welcome-section p {
     font-size: 1.5rem;
   }
-  #skills .skills-h2 {
+  /*#skills .skills-h2 {
     margin-bottom: 10vw;
-  }
+  }*/
   #skills .skills-icon {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
     align-content: center;
     justify-items: center;
+    padding: 4rem 1rem;
+    margin: auto;
   }
   #blog .more-abt-me {
     display: none;
@@ -415,6 +425,9 @@ nav a:hover {
   }
   #blog .my-blog {
     margin-top: 0;
+  }
+  #skills {
+    padding: 3vw;
   }
   #projects h2 {
     padding-top: 3rem;
