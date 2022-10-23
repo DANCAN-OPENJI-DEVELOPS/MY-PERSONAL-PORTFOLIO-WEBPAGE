@@ -410,6 +410,9 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 650px) {
+  nav .nav-links {
+    display: flex;
+  }
   #welcome-section {
     height: max-content;
   }
