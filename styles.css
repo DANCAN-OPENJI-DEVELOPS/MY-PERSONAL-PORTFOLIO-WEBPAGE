@@ -33,6 +33,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 4;
 }
 
 nav div:first-of-type {
@@ -393,6 +394,10 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 650px) {
+  body {
+    width: 100vw;
+    scroll-behavior: none;
+  }
   #welcome-section {
     height: 100vh;
   }
@@ -449,11 +454,11 @@ nav a:hover {
     padding: 1rem 0 0.5rem 0;
     color: antiquewhite;
   }
-  #my-footer div > p:first-of-type {
+ /* #my-footer div > p:first-of-type {
     color: beige;
     color: aquamarine;
     opacity: 0.7;
-  }
+  }*/
   #my-footer p:first-of-type {
     color: black;
     margin-bottom: 8px;
