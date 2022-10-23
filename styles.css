@@ -394,12 +394,7 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 650px) {
-  body {
-    width: 100vw;
-    scroll-margin-block: none;
-  }
   #welcome-section {
-    width: 100vw;
     height: 100vh;
   }
   #welcome-section h1 {
@@ -410,18 +405,12 @@ nav a:hover {
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
-  #blog {
-    width: 100vw;
-  }
   #blog .more-abt-me {
     display: none;
     overflow: hidden;
   }
   #blog .my-blog {
     margin-top: 0;
-  }
-  #projects {
-    width: 100vw;
   }
   #projects h2 {
     padding-top: 3rem;
@@ -444,7 +433,6 @@ nav a:hover {
     padding: 1.5rem 0 2rem 0;
   }
   #contact-info {
-    width: 100vw;
     padding: 0.8rem 0 4rem 0;
   }
   #contact-info i {
@@ -456,7 +444,6 @@ nav a:hover {
     row-gap: 0rem;
   }
   #my-footer {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
