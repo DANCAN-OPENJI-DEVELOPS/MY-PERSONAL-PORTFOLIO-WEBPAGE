@@ -61,6 +61,8 @@ nav div > span:last-of-type {
 nav div > span:last-of-type:hover {
   color: white;
   background-color: black;
+  padding: 2px;
+  font-weight: bold;
 }
 nav a {
   text-decoration: none;
@@ -103,7 +105,9 @@ nav a:hover {
   display: none;
 }*/
 #welcome-section img {
-  margin: 1rem auto 0.5rem auto;
+  /*margin: 1rem auto 0.5rem auto;*/
+  margin: 10px auto 0 auto;
+  padding: 1rem auto 0.5rem auto;
   border-radius: 9px;
   display: flex;
   align-items: center;
@@ -450,11 +454,11 @@ nav a:hover {
     padding: 1rem 0 0.5rem 0;
     color: antiquewhite;
   }
- /* #my-footer div > p:first-of-type {
+  #my-footer div > p:first-of-type {
     color: beige;
     color: aquamarine;
     opacity: 0.7;
-  }*/
+  }
   #my-footer p:first-of-type {
     color: black;
     margin-bottom: 8px;
