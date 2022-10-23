@@ -419,6 +419,24 @@ nav a:hover {
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
+   #skills {
+    padding: 3vw;
+  }
+  #skills .skills-icon {
+    display: grid;
+    /*grid-column: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    place-items: center;
+    gap: 4rem;
+    /*justify-content: center;
+    gap: 100px;*/
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 8vw 0;
+    animation: Anime 8s linear infinite;
+    transition: 2s linear 2s;
+  }
   #blog .more-abt-me {
     display: none;
     overflow: hidden;
